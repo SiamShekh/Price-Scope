@@ -1,0 +1,12 @@
+const page = () => {
+    return (
+        <div>
+            <p className="text-2xl font-semibold text-white">Version 2.2.0</p>
+            <div className="mt-5">
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, nihil! Suscipit impedit amet quas. Quibusdam quia placeat suscipit magnam ratione dolor tempora laborum voluptas numquam ut, facere nostrum in nulla at labore! Est, odit perferendis repudiandae dolores accusantium, nam atque accusamus laborum veritatis molestias ad voluptates ratione necessitatibus officiis nisi, incidunt culpa sed! Tempora ipsum assumenda optio. Praesentium fugit temporibus, velit nam excepturi ullam debitis deleniti eius sit aliquam, commodi ipsa impedit. Corrupti sit nulla similique debitis! Laudantium magnam cupiditate, doloremque quaerat ipsam nam dicta vel id sunt cumque quasi similique facere dolorem eos optio exercitationem sequi tempore, voluptate ab iste! Et nisi vel doloremque quasi voluptas quidem illum quaerat repellendus repellat dolore explicabo nam voluptatem quibusdam quo, quas corporis quod ipsam minus, veniam pariatur! Voluptates, tempora eius quam cumque necessitatibus accusantium corporis eligendi debitis ducimus. Rem facere eum itaque tempore harum, assumenda similique iste iusto doloribus natus, corporis, neque ad quidem molestias! Nisi, voluptate expedita, minima, culpa tempore facere quaerat at modi reprehenderit consequatur eveniet deleniti! Blanditiis dignissimos illo soluta ipsam maxime facere ab quos neque, incidunt deserunt ea est, reiciendis vitae possimus in. Repellendus, magni aliquid eum maxime tenetur nihil nam dicta qui ab sit non. Culpa reiciendis, iste, repudiandae quibusdam quo rerum aliquam numquam soluta quos adipisci quod facilis corrupti deleniti impedit reprehenderit ipsam iusto eligendi accusamus explicabo dolores earum sequi ad necessitatibus quas? Officia dicta odio, nisi corporis animi voluptatibus et maiores soluta obcaecati. Eius rem quam dolorum, inventore sunt aliquid laborum et voluptatum, sint aut incidunt quod hic, dolorem possimus nobis distinctio saepe. Quae possimus facilis, alias obcaecati sunt laudantium soluta sequi dolor cumque a quod voluptatibus quaerat velit veritatis, saepe, suscipit nam temporibus numquam atque? Neque libero natus suscipit numquam enim voluptatibus officiis dolores iure exercitationem, nemo quibusdam illum consectetur reiciendis alias! Dignissimos, aliquid!</p>
+            </div>
+        </div>
+    );
+};
+
+export default page;
