@@ -17,7 +17,7 @@ const Home = () => {
         <p className='text-white/60 text-sm'>3200 Product Found</p>
       </div>
 
-      <div className="grid grid-cols-4 gap-3 mt-4">
+      <div className="grid lg:grid-cols-4 gap-3 mt-4">
         <Product />
         <Product />
         <Product />

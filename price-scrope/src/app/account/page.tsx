@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 import { IoIosSettings } from "react-icons/io";
 import { FaFaceRollingEyes } from "react-icons/fa6";
 
-const Sidebar = () => {
+const Account = () => {
     const pages = [
         {
             name: "Home",
@@ -30,11 +30,6 @@ const Sidebar = () => {
             href: "/update",
             icon: <MdTipsAndUpdates />
         },
-    ]
-
-    const pathname = usePathname();
-
-    const utils = [
         {
             name: "Setting",
             href: "/setting",
@@ -57,9 +52,10 @@ const Sidebar = () => {
         },
     ]
 
+    const pathname = usePathname();
+
     return (
-        <div className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
-            {/* Site Identity */}
+        <div className="min-h-screen relative">
             <div className="flex gap-3 items-center">
                 <img
                     src={"https://siam-sheikh.xyz/assets/siam_portfulio_images-C_MRsGWa.webp"}
@@ -70,33 +66,11 @@ const Sidebar = () => {
                 </div>
             </div>
 
-            {/* Navigation Items */}
-            <div className="mt-10">
+            <div className="mt-5">
                 {
                     pages?.map((page) => (
                         <Link key={page?.href} href={page?.href}>
-                            <div className={`${page?.href === pathname && "bg-blue-500/10"}  mt-2 p-3 rounded-xl flex items-center gap-3`}>
-                                <span className="text-2xl text-white">{page?.icon}</span>
-                                <p className="text-[16px] font-light font-sans">{page?.name}</p>
-                            </div>
-                        </Link>
-                    ))
-                }
-            </div>
-
-            {/* Social Identity */}
-
-
-            <div className="absolute left-0 p-3 bottom-0 w-full">
-                <Link href={"/"}>
-                    <button className="bg-blue-500 w-full p-3 cursor-pointer font-semibold rounded-xl text-sm">
-                        New Report
-                    </button>
-                </Link>
-                {
-                    utils?.map((page) => (
-                        <Link key={page?.href} href={page?.href}>
-                            <div className={`${page?.href === pathname && "bg-blue-500/10"}  mt-2 p-3 rounded-xl flex items-center gap-3`}>
+                            <div className={`${page?.href === pathname && "bg-blue-500/10"} py-3 rounded-xl flex items-center gap-3`}>
                                 <span className="text-2xl text-white">{page?.icon}</span>
                                 <p className="text-[16px] font-light font-sans">{page?.name}</p>
                             </div>
@@ -108,4 +82,4 @@ const Sidebar = () => {
     );
 };
 
-export default Sidebar;
+export default Account;

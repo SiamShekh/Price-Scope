@@ -1,12 +1,12 @@
-const Favorite = () => {
+const Watch = () => {
     return (
         <div>
             <div className="uppercase relative pl-2">
                 <div className="h-full absolute w-2 -left-2 bg-white/30"></div>
-                <p className="font-extrabold font-mono text-3xl text-white">favorite Product</p>
-                <p className="font-mono text-2xl text-white/60">The product you’ve marked as a favorite on our platform.</p>
+                <p className="font-extrabold font-mono text-3xl text-white">watched Product</p>
+                <p className="font-mono text-2xl text-white/60">The product you searched for and viewed on our platform.</p>
             </div>
-            <div className="grid lg:grid-cols-4 gap-3 mt-4">
+            <div className="grid grid-cols-4 gap-3 mt-4">
                 <Product />
                 <Product />
                 <Product />
@@ -17,7 +17,7 @@ const Favorite = () => {
     );
 };
 
-export default Favorite;
+export default Watch;
 
 const Product = () => {
     return (

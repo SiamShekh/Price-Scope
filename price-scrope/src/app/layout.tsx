@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Montserrat } from "next/font/google";
 import "./globals.css";
 import Sidebar from "@/components/utils/Sidebar";
+import Dock from "@/components/utils/Dock";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -39,7 +40,12 @@ export default function RootLayout({
         <div className="drawer lg:drawer-open">
           <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content p-3">
-            {children}
+            <div className="pb-14">
+              {children}
+            </div>
+            <div className="">
+              <Dock />
+            </div>
           </div>
           <div className="drawer-side">
             <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label>

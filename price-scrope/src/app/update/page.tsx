@@ -9,7 +9,7 @@ const Update = () => {
                 <p className="font-extrabold font-mono text-3xl text-white">recent version update</p>
                 <p className="font-mono text-2xl text-white/60">Check out our latest updates and version changes to see improvements, bug fixes, and newly added features.</p>
             </div>
-            <div className="grid grid-cols-3 gap-3 mt-4">
+            <div className="grid lg:grid-cols-3 gap-3 mt-4">
                 <UpdateCard />
                 <UpdateCard />
                 <UpdateCard />

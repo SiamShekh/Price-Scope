@@ -1,4 +1,4 @@
-const page = () => {
+const Demand = () => {
     return (
         <div>
             <div className="uppercase relative pl-2">
@@ -6,7 +6,7 @@ const page = () => {
                 <p className="font-extrabold font-mono text-3xl text-white">Most Watched Product</p>
                 <p className="font-mono text-2xl text-white/60">The product that users frequently search for and engage with on our platform.</p>
             </div>
-            <div className="grid grid-cols-4 gap-3 mt-4">
+            <div className="grid lg:grid-cols-4 gap-3 mt-4">
                 <Product />
                 <Product />
                 <Product />
@@ -17,7 +17,7 @@ const page = () => {
     );
 };
 
-export default page;
+export default Demand;
 
 const Product = () => {
     return (
